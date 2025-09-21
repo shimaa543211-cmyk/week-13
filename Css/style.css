@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: #24353F;
+  padding: 60px;
+  border-radius: 5px;
+  width: 800px;
+  text-align: center;
+  color: #17A2B8;
+  box-shadow: 0 0 15px rgba(0,0,0,9);
+}
+
+.container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  color: black;
+}
+
+.container button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: cyan;
+  color: #000;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#signupMsg, #loginMsg {
+  color: red;
+  margin: 10px 0;
+}
+/* لما أضغط على input */
+.container input:focus {
+  border: 1px solid #00bfff; /* الأزرق */
+  box-shadow: 0 0 8px #00bfff;
+}
+/* لما أهوفر على الزرار */
+.container button:hover {
+  background: #00bfff;
+  color: #fff;
+}
